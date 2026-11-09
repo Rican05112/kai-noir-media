@@ -1,0 +1,26 @@
+{
+  "permissions": {
+    "allow": [
+      "mcp__alpaca__get_*",
+      "Read(./trading-rules.md)",
+      "Read(./trades-log.md)",
+      "Edit(./trades-log.md)"
+    ],
+    "ask": [
+      "mcp__alpaca__place_stock_order",
+      "mcp__alpaca__place_crypto_order",
+      "mcp__alpaca__cancel_all_orders",
+      "mcp__alpaca__close_position"
+    ],
+    "deny": [
+      "mcp__alpaca__place_option_order",
+      "mcp__alpaca__close_all_positions",
+      "mcp__alpaca__update_account_config",
+      "Edit(./trading-rules.md)",
+      "Write(./trading-rules.md)",
+      "Edit(./.claude/**)",
+      "Write(./.claude/**)",
+      "Bash(claude mcp:*)"
+    ]
+  }
+}
