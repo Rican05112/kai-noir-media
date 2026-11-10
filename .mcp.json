@@ -3,6 +3,10 @@
     "rea": {
       "command": "npx",
       "args": ["-y", "rea-agents@6.8.0", "mcp"]
+    },
+    "robinhood-trading": {
+      "type": "http",
+      "url": "https://agent.robinhood.com/mcp/trading"
     }
   }
 }
